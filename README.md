@@ -17,7 +17,7 @@ Server Status Checker is a small Python project for checking whether websites or
 2. Install the required library:
 
 ```bash
-pip install requests
+pip3 install -r requirements.txt
 ```
 
 ## How to Run
@@ -27,6 +27,12 @@ pip install requests
 
 ```bash
 python3 main.py
+```
+
+If you see an error about `requests`, install the dependency first:
+
+```bash
+pip3 install -r requirements.txt
 ```
 
 ## Example `servers.txt`

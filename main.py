@@ -1,7 +1,13 @@
 import time
+import sys
 from urllib.parse import urlparse
 
-import requests
+try:
+    import requests
+except ImportError:
+    print("The 'requests' library is not installed.")
+    print("Install it with: pip3 install -r requirements.txt")
+    sys.exit(1)
 
 
 DEFAULT_TIMEOUT = 5
