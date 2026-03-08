@@ -1,0 +1,3 @@
+https://google.com
+https://api.github.com
+https://example.com
